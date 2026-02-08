@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23f6eb1c6eb0d224b89f1214de90cd90, type: 3}
+  m_Name: DataCenter
+  m_EditorClassIdentifier: Assembly-CSharp::RuleSet
+  ruleSetName: DataCenter
+  ruleSetImage: {fileID: 0}
+  buildingData: {fileID: 11400000, guid: 19d39c8cbae806e49a51ee9c2bc59fb8, type: 2}
+  pattern:
+  - offset: {x: 0, y: 0, z: 0}
+    requiredCube: {fileID: 11400000, guid: 1d6e5f719c54f2644870216505c3bc44, type: 2}
+  - offset: {x: 0, y: 0, z: 1}
+    requiredCube: {fileID: 11400000, guid: 7885e0426a213da48a6ceaeaf7f4c348, type: 2}
+  - offset: {x: 1, y: 0, z: 0}
+    requiredCube: {fileID: 11400000, guid: 1d6e5f719c54f2644870216505c3bc44, type: 2}
+  - offset: {x: 1, y: 0, z: 1}
+    requiredCube: {fileID: 11400000, guid: 7885e0426a213da48a6ceaeaf7f4c348, type: 2}

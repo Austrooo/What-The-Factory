@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23653f686531a9649b90b9298faca6e7, type: 3}
+  m_Name: ControlHub
+  m_EditorClassIdentifier: Assembly-CSharp::CubeData
+  cubePrefab: {fileID: 4944995719030355015, guid: 028f5baff4ecb3c4894dfb14e8334bda, type: 3}
+  cubeSprite: {fileID: 0}
+  cubeID: ControlHub
+  type: 1

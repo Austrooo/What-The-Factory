@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23f6eb1c6eb0d224b89f1214de90cd90, type: 3}
+  m_Name: Assembler
+  m_EditorClassIdentifier: Assembly-CSharp::RuleSet
+  ruleSetName: Assembler
+  ruleSetImage: {fileID: 0}
+  buildingData: {fileID: 11400000, guid: 7f2f93d8e5275ba4a825e21996929d74, type: 2}
+  pattern:
+  - offset: {x: 0, y: 0, z: 0}
+    requiredCube: {fileID: 11400000, guid: f440f3b1f6dad14429e3edc8fba29db5, type: 2}
+  - offset: {x: 0, y: 0, z: 1}
+    requiredCube: {fileID: 11400000, guid: f440f3b1f6dad14429e3edc8fba29db5, type: 2}
+  - offset: {x: 1, y: 0, z: 0}
+    requiredCube: {fileID: 11400000, guid: f440f3b1f6dad14429e3edc8fba29db5, type: 2}
+  - offset: {x: 1, y: 0, z: 1}
+    requiredCube: {fileID: 11400000, guid: f440f3b1f6dad14429e3edc8fba29db5, type: 2}
